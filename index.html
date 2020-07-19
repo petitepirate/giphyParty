@@ -8,14 +8,21 @@
 </head>
 
 <body>
-<form action="" id="searchform">
-    <input type="text" id="search">
-    <input type="submit" value="Search Giphy">
-    <button>Remove</button>
-</form>
+  <h1>Giphy Party Time!</h1>
+  <div class="container">
+     
+      <div>
+        <form>
+          <input id="searchTerm" type="text" placeholder="Enter search term"/>
+          <button id="searchBtn">Search Giphy!</button>
+          <button id="removeBtn">Remove gifs</button>
+        </form>
+      </div>
 
-<div class="giphyContainer"></div>
+      <div id="gifContainer">
+    </div>
 
+  </div>
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
 <script src="app.js"></script>
